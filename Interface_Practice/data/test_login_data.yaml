@@ -1,0 +1,16 @@
+-
+  detail: 账号密码均正确进行登录
+  data:
+    username: "20154084"
+    password: "123456"
+  result:
+    code: 200
+    message: "登录成功"
+-
+  detail: 账号正确，密码错误进行登录
+  data:
+    username: "20154084"
+    password: "12345678"
+  result:
+    code: 400
+    message: "密码错误"
