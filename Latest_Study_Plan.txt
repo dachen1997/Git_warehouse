@@ -1,0 +1,17 @@
+===========================================================
+复习测试用例的编写方法与技巧
+fiddler、jmeter、wireshark、postman工具的复习
+MySQL复习
+Linux复习
+网络协议HTTP/https，tcp，udp，arp复习与补充
+git、svn复习
+复习APP测试、web测试
+学习loadrunner
+学习docker
+学习Jenkins
+Python复习
+接口自动化基础复习（主要是接口项目的架构、pytest框架、allure报告）
+简单的接口压测、场景压测
+xpath复习
+简单的正则表达式
+测试方案、测试报告
