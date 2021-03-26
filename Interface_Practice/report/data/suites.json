@@ -1,5 +1,134 @@
 {
   "uid" : "98d3104e051c652961429bf95fa0b5d6",
   "name" : "suites",
-  "children" : [ ]
+  "children" : [ {
+    "name" : "testcase",
+    "children" : [ {
+      "name" : "test_login",
+      "children" : [ {
+        "name" : "Testlogin",
+        "children" : [ {
+          "name" : "test_case_login[inputdata0-reps0]",
+          "uid" : "facac989dce8cb5b",
+          "parentUid" : "485f5aa3343e9f6ac377b04278b7eec6",
+          "status" : "passed",
+          "time" : {
+            "start" : 1616737975963,
+            "stop" : 1616737976040,
+            "duration" : 77
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'username': '847w', 'password': '1A52'}", "{'code': 0, 'msg': '登录成功！'}" ]
+        }, {
+          "name" : "test_case_login[inputdata1-reps1]",
+          "uid" : "6878037fcd377e1a",
+          "parentUid" : "485f5aa3343e9f6ac377b04278b7eec6",
+          "status" : "passed",
+          "time" : {
+            "start" : 1616737976045,
+            "stop" : 1616737976128,
+            "duration" : 83
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'username': '847w12322', 'password': '1A52'}", "{'code': 100, 'msg': '用户不存在'}" ]
+        }, {
+          "name" : "test_case_login[inputdata2-reps2]",
+          "uid" : "2f7ab939775ecd83",
+          "parentUid" : "485f5aa3343e9f6ac377b04278b7eec6",
+          "status" : "passed",
+          "time" : {
+            "start" : 1616737976134,
+            "stop" : 1616737976210,
+            "duration" : 76
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'username': '', 'password': '1A52'}", "{'code': 1, 'msg': '失败'}" ]
+        }, {
+          "name" : "test_case_login[inputdata3-reps3]",
+          "uid" : "61ee77ecbdaf0c97",
+          "parentUid" : "485f5aa3343e9f6ac377b04278b7eec6",
+          "status" : "passed",
+          "time" : {
+            "start" : 1616737976215,
+            "stop" : 1616737976293,
+            "duration" : 78
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'username': '847w', 'password': '1A5123222'}", "{'code': 103, 'msg': '账号密码错误'}" ]
+        }, {
+          "name" : "test_case_login[inputdata4-reps4]",
+          "uid" : "d58d14a186aea285",
+          "parentUid" : "485f5aa3343e9f6ac377b04278b7eec6",
+          "status" : "passed",
+          "time" : {
+            "start" : 1616737976298,
+            "stop" : 1616737976381,
+            "duration" : 83
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'username': '847w', 'password': ''}", "{'code': 1, 'msg': '失败'}" ]
+        }, {
+          "name" : "test_case_login[inputdata5-reps5]",
+          "uid" : "fe001d5cb522c5bb",
+          "parentUid" : "485f5aa3343e9f6ac377b04278b7eec6",
+          "status" : "passed",
+          "time" : {
+            "start" : 1616737976386,
+            "stop" : 1616737976459,
+            "duration" : 73
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'username': '', 'password': ''}", "{'code': 1, 'msg': '失败'}" ]
+        }, {
+          "name" : "test_case_flashtoken[tokedata0-res0]",
+          "uid" : "e596403a25035e2d",
+          "parentUid" : "485f5aa3343e9f6ac377b04278b7eec6",
+          "status" : "passed",
+          "time" : {
+            "start" : 1616737976464,
+            "stop" : 1616737976544,
+            "duration" : 80
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'code': 0, 'msg': '成功'}", "{'token': 'eyJhbGciOiJIUzI1NiJ9.eyJ0aGlyZFBhcnR5Ijp0cnVlLCJzdWIiOiI4NDd3IiwiZXhwIjoxNjE2ODA2MTA1LCJ1c2VySWQiOiIxMzQxNjY3MTE1MjQ5NDM4NzIxIiwiaWF0IjoxNjE2NzE5NzA1LCJqdGkiOiJhYmNkZDQyZS1mYzAxLTRkMzktOThmMC0zZTEyOTcxZDU4ODkiLCJ1c2VybmFtZSI6Ijg0N3cifQ.Y4hNDsxCsV99RSMct_VW4iwjRkZ0WLrIViA4_OmzHX0'}" ]
+        }, {
+          "name" : "test_case_flashtoken[tokedata1-res1]",
+          "uid" : "610ee8c14eece334",
+          "parentUid" : "485f5aa3343e9f6ac377b04278b7eec6",
+          "status" : "passed",
+          "time" : {
+            "start" : 1616737976549,
+            "stop" : 1616737976622,
+            "duration" : 73
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'code': 104, 'msg': '登录凭证已失效，请重新登录'}", "{'token': '13123123132'}" ]
+        }, {
+          "name" : "test_case_flashtoken[tokedata2-res2]",
+          "uid" : "dcbafb68031555cb",
+          "parentUid" : "485f5aa3343e9f6ac377b04278b7eec6",
+          "status" : "passed",
+          "time" : {
+            "start" : 1616737976627,
+            "stop" : 1616737976700,
+            "duration" : 73
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'code': 1, 'msg': '缺少必需参数!'}", "{'token': ''}" ]
+        } ],
+        "uid" : "485f5aa3343e9f6ac377b04278b7eec6"
+      } ],
+      "uid" : "0a485542467e5c5c95949e99a701fc6f"
+    } ],
+    "uid" : "7d3977dcbf31acd3e26ecbe96342e45e"
+  } ]
 }

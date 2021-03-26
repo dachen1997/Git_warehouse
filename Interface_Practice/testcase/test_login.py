@@ -1,4 +1,4 @@
-import pytest
+
 '''pytest规范：
 py测试文件必须要以test_开头或者_test结尾
 测试类必须要以Test开头，并且不能有init方法
@@ -188,27 +188,26 @@ Jenkins的持续集成？？？
 发送邮件？？？
 日志监控？？？
 '''
-from tools.logindata import getting_login_testdata
-data = getting_login_testdata(r'../data/test_login_data.yaml')
-from libs.login_libs import Login
+import pytest
+from libs.login_libs import Login #导入源码包的登录类
+from tools.logindata import getting_logindata #导入tools的获取登录数据函数
+from tools.token_data import flash_token_data #导入tools的oldtoken函数
+
+flashdatalist = flash_token_data(r'../data/flash_token_data.yaml') #获取刷新token用例的数据
+
+data = getting_logindata(r'../data/test_login_data.yaml',True) #获取登录用例的数据
+
 class   Testlogin():
-    @pytest.mark.parametrize('indata,reps',data)#数据驱动
-    def test_case_login(self,indata,reps,Clean_tmpinfo):
-        fin = Login().login(indata,False)
-        assert fin['code']==reps['code']
 
+    @pytest.mark.parametrize('inputdata,reps',data)#数据驱动
+    def test_case_login(self,inputdata,reps,Clean_tmpinfo):
+        fin = Login().login(inputdata,True)
+        assert fin['code']==reps['code'] and fin['msg']==reps['msg']
 
-# class   Testlogin():
-#
-#     def test_login1(self,fixturetest,Clean_tmpinfo):
-#         print("111")
-#         assert 1==2
-#
-#     @pytest.mark.parametrize('name,age',[['老王',24],['小陈',23]])
-#     def test_login2(self,name,age):
-#         print(name,age)
-#
-#     def test_login3(self):
-#         print("333")
-#     def test_login4(self):
-#         print("444")
+    @pytest.mark.parametrize('tokedata,res',flashdatalist)
+    def test_case_flashtoken(self,tokedata,res):
+        finlly = Login().flash_token(tokedata,True)
+        assert finlly['code']==res['code']
+
+if __name__ == '__main__':
+    pytest.main()

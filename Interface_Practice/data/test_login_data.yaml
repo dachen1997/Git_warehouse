@@ -1,16 +1,48 @@
 -
-  detail: 账号密码均正确进行登录
+  title: 正确的账号、密码登录
   data:
-    username: "20154084"
-    password: "123456"
+    username: "847w"
+    password: "1A52"
   result:
-    code: 200
-    message: "登录成功"
+    code: 0
+    msg: "登录成功！"
 -
-  detail: 账号正确，密码错误进行登录
+  title: 错误的账号,正确密码登录
   data:
-    username: "20154084"
-    password: "12345678"
+    username: "847w12322"
+    password: "1A52"
   result:
-    code: 400
-    message: "密码错误"
+    code: 100
+    msg: "用户不存在"
+-
+  title: 账号不输入，正确密码登录
+  data:
+    username: ""
+    password: "1A52"
+  result:
+    code: 1
+    msg: "失败"
+-
+  title: 正确的账号、错误密码登录
+  data:
+    username: "847w"
+    password: "1A5123222"
+  result:
+    code: 103
+    msg: "账号密码错误"
+-
+  title: 正确的账号、密码不输入登录
+  data:
+    username: "847w"
+    password: ""
+  result:
+    code: 1
+    msg: "失败"
+-
+  title: 账号、密码都不输入登录
+  data:
+    username: ""
+    password: ""
+  result:
+    code: 1
+    msg: "失败"

@@ -1,0 +1,92 @@
+{
+  "uid" : "facac989dce8cb5b",
+  "name" : "test_case_login[inputdata0-reps0]",
+  "fullName" : "testcase.test_login.Testlogin#test_case_login",
+  "historyId" : "4cffde8725cc2cceca954aea7e6704ff",
+  "time" : {
+    "start" : 1616737975963,
+    "stop" : 1616737976040,
+    "duration" : 77
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "Clean_tmpinfo",
+    "time" : {
+      "start" : 1616737975956,
+      "stop" : 1616737975961,
+      "duration" : 5
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "Clean_tmpinfo::0",
+    "time" : {
+      "start" : 1616737976702,
+      "stop" : 1616737976702,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "subSuite",
+    "value" : "Testlogin"
+  }, {
+    "name" : "host",
+    "value" : "PC-20200325KZTD"
+  }, {
+    "name" : "thread",
+    "value" : "6656-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "inputdata",
+    "value" : "{'username': '847w', 'password': '1A52'}"
+  }, {
+    "name" : "reps",
+    "value" : "{'code': 0, 'msg': '登录成功！'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "facac989dce8cb5b.json",
+  "parameterValues" : [ "{'username': '847w', 'password': '1A52'}", "{'code': 0, 'msg': '登录成功！'}" ]
+}

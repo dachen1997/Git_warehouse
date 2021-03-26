@@ -1,1 +1,91 @@
-[ ]
+[ {
+  "uid" : "610ee8c14eece334",
+  "name" : "test_case_flashtoken[tokedata1-res1]",
+  "time" : {
+    "start" : 1616737976549,
+    "stop" : 1616737976622,
+    "duration" : 73
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d58d14a186aea285",
+  "name" : "test_case_login[inputdata4-reps4]",
+  "time" : {
+    "start" : 1616737976298,
+    "stop" : 1616737976381,
+    "duration" : 83
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6878037fcd377e1a",
+  "name" : "test_case_login[inputdata1-reps1]",
+  "time" : {
+    "start" : 1616737976045,
+    "stop" : 1616737976128,
+    "duration" : 83
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "facac989dce8cb5b",
+  "name" : "test_case_login[inputdata0-reps0]",
+  "time" : {
+    "start" : 1616737975963,
+    "stop" : 1616737976040,
+    "duration" : 77
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e596403a25035e2d",
+  "name" : "test_case_flashtoken[tokedata0-res0]",
+  "time" : {
+    "start" : 1616737976464,
+    "stop" : 1616737976544,
+    "duration" : 80
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2f7ab939775ecd83",
+  "name" : "test_case_login[inputdata2-reps2]",
+  "time" : {
+    "start" : 1616737976134,
+    "stop" : 1616737976210,
+    "duration" : 76
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "61ee77ecbdaf0c97",
+  "name" : "test_case_login[inputdata3-reps3]",
+  "time" : {
+    "start" : 1616737976215,
+    "stop" : 1616737976293,
+    "duration" : 78
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dcbafb68031555cb",
+  "name" : "test_case_flashtoken[tokedata2-res2]",
+  "time" : {
+    "start" : 1616737976627,
+    "stop" : 1616737976700,
+    "duration" : 73
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fe001d5cb522c5bb",
+  "name" : "test_case_login[inputdata5-reps5]",
+  "time" : {
+    "start" : 1616737976386,
+    "stop" : 1616737976459,
+    "duration" : 73
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

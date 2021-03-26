@@ -1,0 +1,62 @@
+{
+  "uid" : "610ee8c14eece334",
+  "name" : "test_case_flashtoken[tokedata1-res1]",
+  "fullName" : "testcase.test_login.Testlogin#test_case_flashtoken",
+  "historyId" : "deca354e63369266c652c2d803371e32",
+  "time" : {
+    "start" : 1616737976549,
+    "stop" : 1616737976622,
+    "duration" : 73
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "subSuite",
+    "value" : "Testlogin"
+  }, {
+    "name" : "host",
+    "value" : "PC-20200325KZTD"
+  }, {
+    "name" : "thread",
+    "value" : "6656-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "res",
+    "value" : "{'code': 104, 'msg': '登录凭证已失效，请重新登录'}"
+  }, {
+    "name" : "tokedata",
+    "value" : "{'token': '13123123132'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "610ee8c14eece334.json",
+  "parameterValues" : [ "{'code': 104, 'msg': '登录凭证已失效，请重新登录'}", "{'token': '13123123132'}" ]
+}
