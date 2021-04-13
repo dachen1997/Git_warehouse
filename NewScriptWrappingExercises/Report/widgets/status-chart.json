@@ -1,0 +1,11 @@
+[ {
+  "uid" : "ffe227f418aecd92",
+  "name" : "testlogin[indata0-finresult0]",
+  "time" : {
+    "start" : 1618293318366,
+    "stop" : 1618293318448,
+    "duration" : 82
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
