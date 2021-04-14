@@ -4,22 +4,22 @@
   "children" : [ {
     "name" : "PC-20200325KZTD",
     "children" : [ {
-      "name" : "8088-MainThread",
+      "name" : "6872-MainThread",
       "children" : [ {
         "name" : "testlogin[indata0-finresult0]",
-        "uid" : "ffe227f418aecd92",
-        "parentUid" : "43bb6c4af8eb80dcacbfc253690f9118",
+        "uid" : "9cb0ec3da636b76f",
+        "parentUid" : "ae54b4abe995d49f854be718df2e4054",
         "status" : "passed",
         "time" : {
-          "start" : 1618293318366,
-          "stop" : 1618293318448,
-          "duration" : 82
+          "start" : 1618362195161,
+          "stop" : 1618362195349,
+          "duration" : 188
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "{'code': 0, 'msg': '登录成功！'}", "{'username': '847w', 'password': '1A52'}" ]
       } ],
-      "uid" : "43bb6c4af8eb80dcacbfc253690f9118"
+      "uid" : "ae54b4abe995d49f854be718df2e4054"
     } ],
     "uid" : "1c3e95b0904f63f4d74d82092a4fa745"
   } ]

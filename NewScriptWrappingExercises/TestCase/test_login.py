@@ -5,7 +5,7 @@ from Source.User_Related_Interface import Login_Flash
 from Tools.Handler_LoginData import getting_logindata
 from Tools.Handler_Pathconfig import DataDir_PATH
 
-res = getting_logindata(f'{DataDir_PATH}/loginData.yaml',is_list=True)
+res = getting_logindata(f'{DataDir_PATH}//loginData.yaml',is_list=True)
 
 @pytest.mark.usefixtures('clean_tmpData')
 class   Test_about_login():

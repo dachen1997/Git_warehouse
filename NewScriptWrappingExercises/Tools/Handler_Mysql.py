@@ -34,6 +34,10 @@ class Handle_mysql:
         logger.info("数据库对象关闭")
 
 if __name__ == '__main__':
-    res = Handle_mysql().GettingSqlData("select * from VERIFICATIONCODE")
+    res = Handle_mysql().GettingSqlData("select * from OWNERINFO where OWNERINFO.STR_TEL='14700000000'")
+    if res:
+        print("===")
+    else:
+        print("sssss")
     Handle_mysql().CloseSql()
     print(res)
