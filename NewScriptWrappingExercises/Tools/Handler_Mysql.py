@@ -1,3 +1,5 @@
+import random
+
 import pymysql
 from Config.configData import *
 from Tools.Handler_Logconfig import *
@@ -29,15 +31,27 @@ class Handle_mysql:
 
     def CloseSql(self):
         self.cursor.close()
-        logger.info("cursor游标关闭")
         self.db.close()
-        logger.info("数据库对象关闭")
 
+    def Create_tel(self):
+        one_tel = random.choice(['152', '187', '158', '136','137'])
+        two_tel = random.sample('12345678', 8)
+        fintel = one_tel + "".join(two_tel)  # 生成随机手机号
+        return fintel
+
+    def is_exited_tel(self,tel):
+        db = Handle_mysql()
+        res = db.GettingSqlData(f"select * from OWNERINFO where OWNERINFO.STR_TEL='{tel}'")
+        while 1:
+            if  res:
+                continue
+            else:
+                return tel
+                break
+        db.CloseSql()
 if __name__ == '__main__':
-    res = Handle_mysql().GettingSqlData("select * from OWNERINFO where OWNERINFO.STR_TEL='14700000000'")
-    if res:
-        print("===")
-    else:
-        print("sssss")
-    Handle_mysql().CloseSql()
-    print(res)
+    mysql = Handle_mysql()
+    create_tel = mysql.Create_tel()
+    res_tel = mysql.is_exited_tel(create_tel)
+    mysql.CloseSql()
+    print(res_tel)

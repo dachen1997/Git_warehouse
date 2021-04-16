@@ -12,3 +12,5 @@ TmpDir_PATH = os.path.join(BASE_PATH,'Tmp')
 Report_PATH = os.path.join(BASE_PATH,'Report')
 
 DataDir_PATH = os.path.join(BASE_PATH,'Data')
+
+ConfigDir_PATH = os.path.join(BASE_PATH,'Config')
