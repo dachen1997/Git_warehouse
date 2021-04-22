@@ -1,0 +1,150 @@
+{
+  "uid" : "b8765de137c29a91",
+  "name" : "testlogin[indata0-finresult0]",
+  "fullName" : "TestCase.test_login.Test_about_login#testlogin",
+  "historyId" : "5fe103cef441df83043562d83c404d13",
+  "time" : {
+    "start" : 1619057113315,
+    "stop" : 1619057113396,
+    "duration" : 81
+  },
+  "description" : "\n        数据校验可以在yaml文件中增加个标识字段，然后拿出来进行判断\n        :param indata:\n        :param finresult:\n        :return:\n        ",
+  "descriptionHtml" : "<pre><code>    数据校验可以在yaml文件中增加个标识字段，然后拿出来进行判断\n    :param indata:\n    :param finresult:\n    :return:\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "xunit_setup_class_fixture_Test_about_login",
+    "time" : {
+      "start" : 1619057113302,
+      "stop" : 1619057113311,
+      "duration" : 9
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "clean_tmpData",
+    "time" : {
+      "start" : 1619057113311,
+      "stop" : 1619057113313,
+      "duration" : 2
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "\n        数据校验可以在yaml文件中增加个标识字段，然后拿出来进行判断\n        :param indata:\n        :param finresult:\n        :return:\n        ",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "dd0c386281bdda36",
+      "name" : "log",
+      "source" : "dd0c386281bdda36.txt",
+      "type" : "text/plain",
+      "size" : 387
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "xunit_setup_class_fixture_Test_about_login::0",
+    "time" : {
+      "start" : 1619057113401,
+      "stop" : 1619057113406,
+      "duration" : 5
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "clean_tmpData::0",
+    "time" : {
+      "start" : 1619057113399,
+      "stop" : 1619057113400,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "登录"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('clean_tmpData')"
+  }, {
+    "name" : "tag",
+    "value" : "run(order=1)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCase"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_about_login"
+  }, {
+    "name" : "host",
+    "value" : "PC-20200325KZTD"
+  }, {
+    "name" : "thread",
+    "value" : "2648-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase.test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "finresult",
+    "value" : "{'code': 0, 'msg': '登录成功！', 'is_sendSQL': 'yes'}"
+  }, {
+    "name" : "indata",
+    "value" : "{'username': '847w', 'password': '1A52'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "run(order=1)", "@pytest.mark.usefixtures('clean_tmpData')" ]
+  },
+  "source" : "b8765de137c29a91.json",
+  "parameterValues" : [ "{'code': 0, 'msg': '登录成功！', 'is_sendSQL': 'yes'}", "{'username': '847w', 'password': '1A52'}" ]
+}

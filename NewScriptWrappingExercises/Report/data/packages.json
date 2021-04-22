@@ -5,17 +5,17 @@
     "name" : "TestCase.test_login",
     "children" : [ {
       "name" : "testlogin[indata0-finresult0]",
-      "uid" : "9cb0ec3da636b76f",
+      "uid" : "b8765de137c29a91",
       "parentUid" : "947fd64009aa32c6799c8651a53e1cd1",
       "status" : "passed",
       "time" : {
-        "start" : 1618362195161,
-        "stop" : 1618362195349,
-        "duration" : 188
+        "start" : 1619057113315,
+        "stop" : 1619057113396,
+        "duration" : 81
       },
       "flaky" : false,
       "newFailed" : false,
-      "parameters" : [ "{'code': 0, 'msg': '登录成功！'}", "{'username': '847w', 'password': '1A52'}" ]
+      "parameters" : [ "{'code': 0, 'msg': '登录成功！', 'is_sendSQL': 'yes'}", "{'username': '847w', 'password': '1A52'}" ]
     } ],
     "uid" : "TestCase.test_login"
   } ]

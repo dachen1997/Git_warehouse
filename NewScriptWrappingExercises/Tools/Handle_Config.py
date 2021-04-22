@@ -11,6 +11,12 @@ class   HandleConfigclass:
         return self.config[Section][Section_key]
 
     def write_config(self,datas,filename):
+        '''
+        datas是一个嵌套字典，eg datas = {section:{"key":"value"}}
+        :param datas:
+        :param filename:
+        :return:
+        '''
         if isinstance(datas,dict):
             for value in datas.values():
                 if not  isinstance(value,dict):
