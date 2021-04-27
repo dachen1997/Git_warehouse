@@ -1,0 +1,24 @@
+-
+  title: 正确的授权码获取列表信息
+  level: 高
+  validity: True
+  Authorization:
+    Authorization: "30cc11c04808becec9792a7f0e6fedc9"
+  data:
+    page: 1
+    size: 1
+  result:
+    code: 0
+    msg: "成功"
+-
+  title: 错误的授权码获取列表信息
+  level: 中
+  validity: False
+  Authorization:
+    Authorization: "4654654646"
+  data:
+    page: 1
+    size: 1
+  result:
+    code: 1
+    msg: "失败"

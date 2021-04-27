@@ -1,0 +1,153 @@
+{
+  "uid" : "605d7277c7b82fae",
+  "name" : "testLogin[InputData1-Result1]",
+  "fullName" : "Testcases.test_01_Login.TestUserClass#testLogin",
+  "historyId" : "52884a9736211863807d6558539c9dea",
+  "time" : {
+    "start" : 1619511765565,
+    "stop" : 1619511765605,
+    "duration" : 40
+  },
+  "description" : "\n        测试登录接口\n        :param InputData:\n        :param Result:\n        :return:\n        ",
+  "descriptionHtml" : "<pre><code>    测试登录接口\n    :param InputData:\n    :param Result:\n    :return:\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestUserClass",
+    "time" : {
+      "start" : 1619511765473,
+      "stop" : 1619511765473,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "Clean_Tmp",
+    "time" : {
+      "start" : 1619511765462,
+      "stop" : 1619511765472,
+      "duration" : 10
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "\n        测试登录接口\n        :param InputData:\n        :param Result:\n        :return:\n        ",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "b079eb86767abefc",
+      "name" : "log",
+      "source" : "b079eb86767abefc.txt",
+      "type" : "text/plain",
+      "size" : 113
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestUserClass::0",
+    "time" : {
+      "start" : 1619511765782,
+      "stop" : 1619511765782,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "Clean_Tmp::0",
+    "time" : {
+      "start" : 1619511765942,
+      "stop" : 1619511765942,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "用户相关接口"
+  }, {
+    "name" : "story",
+    "value" : "登录接口"
+  }, {
+    "name" : "tag",
+    "value" : "run(order=1)"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('Clean_Tmp')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Testcases"
+  }, {
+    "name" : "suite",
+    "value" : "test_01_Login"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestUserClass"
+  }, {
+    "name" : "host",
+    "value" : "PC-20200325KZTD"
+  }, {
+    "name" : "thread",
+    "value" : "10256-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Testcases.test_01_Login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "InputData",
+    "value" : "{'username': '847w', 'password': '1A5252'}"
+  }, {
+    "name" : "Result",
+    "value" : "{'code': 103, 'msg': '账号密码错误', 'is_SendSQL': False}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "run(order=1)", "@pytest.mark.usefixtures('Clean_Tmp')" ]
+  },
+  "source" : "605d7277c7b82fae.json",
+  "parameterValues" : [ "{'username': '847w', 'password': '1A5252'}", "{'code': 103, 'msg': '账号密码错误', 'is_SendSQL': False}" ]
+}

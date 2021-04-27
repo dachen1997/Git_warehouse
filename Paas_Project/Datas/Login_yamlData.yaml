@@ -1,0 +1,66 @@
+-
+  title: 正确的账号密码登录
+  level: 高
+  validity: True
+  data:
+    username: "847w"
+    password: "1A52"
+  result:
+    code: 0
+    msg: "登录成功！"
+    is_SendSQL: True
+-
+  title: 正确的账号，错误的密码登录
+  level: 中
+  validity: False
+  data:
+    username: "847w"
+    password: "1A5252"
+  result:
+    code: 103
+    msg: "账号密码错误"
+    is_SendSQL: False
+-
+  title: 正确的账号，密码不输入登录
+  level: 中
+  validity: False
+  data:
+    username: "847w"
+    password: ""
+  result:
+    code: 1
+    msg: "失败"
+    is_SendSQL: False
+-
+  title: 错误的账号，正确的密码登录
+  level: 中
+  validity: False
+  data:
+    username: "847w87"
+    password: "1A52"
+  result:
+    code: 100
+    msg: "用户不存在"
+    is_SendSQL: False
+-
+  title: 账号不输入，正确的密码登录
+  level: 中
+  validity: False
+  data:
+    username: ""
+    password: "1A52"
+  result:
+    code: 1
+    msg: "失败"
+    is_SendSQL: False
+-
+  title: 账号不输入，密码不输入登录
+  level: 低
+  validity: False
+  data:
+    username: ""
+    password: ""
+  result:
+    code: 1
+    msg: "失败"
+    is_SendSQL: False

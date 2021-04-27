@@ -1,0 +1,142 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Testcases",
+    "children" : [ {
+      "name" : "test_01_Login",
+      "children" : [ {
+        "name" : "TestUserClass",
+        "children" : [ {
+          "name" : "testLogin[InputData0-Result0]",
+          "uid" : "a75ff6ff6c85a20",
+          "parentUid" : "485c5de3b66fdc60e3fd46480da016e9",
+          "status" : "passed",
+          "time" : {
+            "start" : 1619511765475,
+            "stop" : 1619511765558,
+            "duration" : 83
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'username': '847w', 'password': '1A52'}", "{'code': 0, 'msg': '登录成功！', 'is_SendSQL': True}" ]
+        }, {
+          "name" : "testLogin[InputData1-Result1]",
+          "uid" : "605d7277c7b82fae",
+          "parentUid" : "485c5de3b66fdc60e3fd46480da016e9",
+          "status" : "passed",
+          "time" : {
+            "start" : 1619511765565,
+            "stop" : 1619511765605,
+            "duration" : 40
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'username': '847w', 'password': '1A5252'}", "{'code': 103, 'msg': '账号密码错误', 'is_SendSQL': False}" ]
+        }, {
+          "name" : "testLogin[InputData2-Result2]",
+          "uid" : "406e94886a817024",
+          "parentUid" : "485c5de3b66fdc60e3fd46480da016e9",
+          "status" : "passed",
+          "time" : {
+            "start" : 1619511765611,
+            "stop" : 1619511765648,
+            "duration" : 37
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'username': '847w', 'password': ''}", "{'code': 1, 'msg': '失败', 'is_SendSQL': False}" ]
+        }, {
+          "name" : "testLogin[InputData3-Result3]",
+          "uid" : "ad27a268f0578af4",
+          "parentUid" : "485c5de3b66fdc60e3fd46480da016e9",
+          "status" : "passed",
+          "time" : {
+            "start" : 1619511765654,
+            "stop" : 1619511765693,
+            "duration" : 39
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'username': '847w87', 'password': '1A52'}", "{'code': 100, 'msg': '用户不存在', 'is_SendSQL': False}" ]
+        }, {
+          "name" : "testLogin[InputData4-Result4]",
+          "uid" : "e91fb3cc3e7d21f7",
+          "parentUid" : "485c5de3b66fdc60e3fd46480da016e9",
+          "status" : "passed",
+          "time" : {
+            "start" : 1619511765699,
+            "stop" : 1619511765736,
+            "duration" : 37
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'username': '', 'password': '1A52'}", "{'code': 1, 'msg': '失败', 'is_SendSQL': False}" ]
+        }, {
+          "name" : "testLogin[InputData5-Result5]",
+          "uid" : "bab7ccbf552dc0d9",
+          "parentUid" : "485c5de3b66fdc60e3fd46480da016e9",
+          "status" : "passed",
+          "time" : {
+            "start" : 1619511765742,
+            "stop" : 1619511765780,
+            "duration" : 38
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'username': '', 'password': ''}", "{'code': 1, 'msg': '失败', 'is_SendSQL': False}" ]
+        } ],
+        "uid" : "485c5de3b66fdc60e3fd46480da016e9"
+      } ],
+      "uid" : "54dde7284b6372f0028a2e27d65724a1"
+    }, {
+      "name" : "test_02_Refresh",
+      "children" : [ {
+        "name" : "TestUserClass",
+        "children" : [ {
+          "name" : "testRefresh[InputData0-Result0]",
+          "uid" : "f62f7860951c104f",
+          "parentUid" : "c0427a3c45d0645a2b98b54e0b980bcc",
+          "status" : "passed",
+          "time" : {
+            "start" : 1619511765788,
+            "stop" : 1619511765857,
+            "duration" : 69
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'token': 'eyJhbGciOiJIUzI1NiJ9.eyJ0aGlyZFBhcnR5Ijp0cnVlLCJzdWIiOiI4NDd3IiwiZXhwIjoxNjE5NTc1NTMxLCJ1c2VySWQiOiIxMzQxNjY3MTE1MjQ5NDM4NzIxIiwiaWF0IjoxNjE5NDg5MTMxLCJqdGkiOiIwZGIwMGE5OS0yOTc2LTRhOTctODhiOS03Mjk1NTFjNjdkZjEiLCJ1c2VybmFtZSI6Ijg0N3cifQ.NsAv9GUqwWr8pYs_4H9KdDpVfuNVntO6PoKth79kzo0'}", "{'code': 0, 'msg': '成功'}" ]
+        }, {
+          "name" : "testRefresh[InputData1-Result1]",
+          "uid" : "ae6765cdd0252972",
+          "parentUid" : "c0427a3c45d0645a2b98b54e0b980bcc",
+          "status" : "passed",
+          "time" : {
+            "start" : 1619511765864,
+            "stop" : 1619511765899,
+            "duration" : 35
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'token': '5465465a4d65a4d65sa4adsada'}", "{'code': 104, 'msg': '登录凭证已失效，请重新登录'}" ]
+        }, {
+          "name" : "testRefresh[InputData2-Result2]",
+          "uid" : "6a59f1e5cd688e1e",
+          "parentUid" : "c0427a3c45d0645a2b98b54e0b980bcc",
+          "status" : "passed",
+          "time" : {
+            "start" : 1619511765904,
+            "stop" : 1619511765939,
+            "duration" : 35
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'token': ''}", "{'code': 1, 'msg': '缺少必需参数!'}" ]
+        } ],
+        "uid" : "c0427a3c45d0645a2b98b54e0b980bcc"
+      } ],
+      "uid" : "8c743899742a36403922d4a55f36b9c7"
+    } ],
+    "uid" : "edcb6c5622d59303d279a449ab2d3a2b"
+  } ]
+}

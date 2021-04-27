@@ -1,0 +1,33 @@
+-
+  title: 正确token刷新
+  level: 高
+  validity: True
+  data:
+    token:
+  result:
+    code: 0
+    msg: "成功"
+-
+  title: 错误token刷新
+  level: 中
+  validity: False
+  data:
+    token: "5465465a4d65a4d65sa4adsada"
+  result:
+    code: 104
+    msg: "登录凭证已失效，请重新登录"
+-
+  title: 没有token刷新
+  level: 低
+  validity: False
+  data:
+    token: ""
+  result:
+    code: 1
+    msg: "缺少必需参数!"
+
+
+
+
+
+
