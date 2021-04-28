@@ -1,5 +1,0 @@
-INFO     mysql:test_login.py:22 连接MySQL
-INFO     requests.packages.urllib3.connectionpool:connectionpool.py:203 Starting new HTTP connection (1): 47.115.122.235
-DEBUG    requests.packages.urllib3.connectionpool:connectionpool.py:383 "POST /thirdPartyLogin HTTP/1.1" 200 None
-INFO     fixture_CaoZuo:conftest.py:16 清除Tmp临时json文件
-INFO     mysql:test_login.py:26 关闭Mysql

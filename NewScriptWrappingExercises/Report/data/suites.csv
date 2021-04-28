@@ -1,7 +1,0 @@
-"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Thu Apr 22 10:05:13 CST 2021","Thu Apr 22 10:05:13 CST 2021","81","TestCase","test_login","Test_about_login","","","testlogin[indata0-finresult0]","
-        数据校验可以在yaml文件中增加个标识字段，然后拿出来进行判断
-        :param indata:
-        :param finresult:
-        :return:
-        "

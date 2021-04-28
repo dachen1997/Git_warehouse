@@ -1,9 +1,0 @@
--
-  title: 测试参数化形式添加手机号01
-  level: 高
-  data:
-    telphone: ""
-    passwd: "123456"
-  result:
-    code: 1002
-    msg: "sucess"
