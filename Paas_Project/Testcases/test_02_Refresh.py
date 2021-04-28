@@ -21,10 +21,10 @@ class   TestUserClass(object):
 
     @staticmethod
     @pytest.mark.run(order=2)
-    @pytest.mark.parametrize('InputData,Result',testfile)
+    @pytest.mark.parametrize('InputData,Result,Testtitle',testfile)
     @allure.feature("用户相关接口")
     @allure.story("刷新token接口")
-    def testRefresh(InputData,Result):
+    def testRefresh(InputData,Result,Testtitle):
         '''
         测试登录接口
         :param InputData:

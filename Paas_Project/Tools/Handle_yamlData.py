@@ -12,46 +12,46 @@ class Handle_yamlDtaClass(object):
 
     @staticmethod
     def Handle_yamlDtaFunction(file,is_paramlist=True):
-        fileobj = open(file,'r',encoding='utf-8')
-        Normal_res = yaml.load(fileobj,Loader=yaml.FullLoader)
-        fileobj.close()
+        with open(file,'r',encoding='utf-8') as fileobj:
+            Normal_res = yaml.load(fileobj,Loader=yaml.FullLoader)
+
         if  is_paramlist == False:
             return Normal_res
         else:
             paramlist = []
             for i in range(len(Normal_res)):
-                paramlist.append((Normal_res[i]['data'],Normal_res[i]['result']))
+                paramlist.append((Normal_res[i]['data'],Normal_res[i]['result'],Normal_res[i]['title']))
             return paramlist
 
 
     @staticmethod
     def Handle_RefreshyamlDtaFunction(file,is_paramlist=True):
-        fileobj = open(file,'r',encoding='utf-8')
-        Normal_res = yaml.load(fileobj,Loader=yaml.FullLoader)
+        with open(file,'r',encoding='utf-8') as fileobj:
+            Normal_res = yaml.load(fileobj,Loader=yaml.FullLoader)
         Normal_res[0]['data']['token'] = refresh_token
-        fileobj.close()
+
         if  is_paramlist == False:
             return Normal_res
         else:
             paramlist = []
             for i in range(len(Normal_res)):
-                paramlist.append((Normal_res[i]['data'],Normal_res[i]['result']))
+                paramlist.append((Normal_res[i]['data'],Normal_res[i]['result'],Normal_res[i]['title']))
             return paramlist
 
     @staticmethod
     def Handle_VerifyDatalistFunction(file,is_paramlist=True):
-        fileobj = open(file,'r',encoding='utf-8')
-        Normal_res = yaml.load(fileobj,Loader=yaml.FullLoader)
-        fileobj.close()
+        with open(file,'r',encoding='utf-8') as fileobj:
+            Normal_res = yaml.load(fileobj,Loader=yaml.FullLoader)
+
         if  is_paramlist == False:
             return Normal_res
         else:
             paramlist = []
             for i in range(len(Normal_res)):
-                paramlist.append((Normal_res[i]['data'],Normal_res[i]['result'],Normal_res[i]['Authorization']))
+                paramlist.append((Normal_res[i]['data'],Normal_res[i]['result'],Normal_res[i]['Authorization'],Normal_res[i]['title']))
             return paramlist
 
 if __name__ == '__main__':
     data = Handle_yamlDtaClass()
-    print(data.Handle_VerifyDatalistFunction(r'../Datas/VerifyDatalist_yamlData.yaml'))
+    print(data.Handle_yamlDtaFunction(r'../Datas/Login_yamlData.yaml'))
     # print(data.Handle_yamlDtaFunction(r'../Datas/Refresh_tokenyamlData.yaml',is_paramlist=False))

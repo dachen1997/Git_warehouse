@@ -1,0 +1,123 @@
+{
+  "uid" : "ded25238920733f2",
+  "name" : "testRefresh[InputData1-Result1]",
+  "fullName" : "Testcases.test_02_Refresh.TestUserClass#testRefresh",
+  "historyId" : "645c45bade2919b9972ab343100ee3db",
+  "time" : {
+    "start" : 1619514018058,
+    "stop" : 1619514018095,
+    "duration" : 37
+  },
+  "description" : "\n        测试登录接口\n        :param InputData:\n        :param Result:\n        :return:\n        ",
+  "descriptionHtml" : "<pre><code>    测试登录接口\n    :param InputData:\n    :param Result:\n    :return:\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "Clean_Tmp",
+    "time" : {
+      "start" : 1619514017652,
+      "stop" : 1619514017670,
+      "duration" : 18
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "\n        测试登录接口\n        :param InputData:\n        :param Result:\n        :return:\n        ",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "8aef79a86f1c56df",
+      "name" : "log",
+      "source" : "8aef79a86f1c56df.txt",
+      "type" : "text/plain",
+      "size" : 105
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ {
+    "name" : "Clean_Tmp::0",
+    "time" : {
+      "start" : 1619514018140,
+      "stop" : 1619514018140,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "刷新token接口"
+  }, {
+    "name" : "feature",
+    "value" : "用户相关接口"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('Clean_Tmp')"
+  }, {
+    "name" : "tag",
+    "value" : "run(order=2)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Testcases"
+  }, {
+    "name" : "suite",
+    "value" : "test_02_Refresh"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestUserClass"
+  }, {
+    "name" : "host",
+    "value" : "PC-20200325KZTD"
+  }, {
+    "name" : "thread",
+    "value" : "7708-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Testcases.test_02_Refresh"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "InputData",
+    "value" : "{'token': '5465465a4d65a4d65sa4adsada'}"
+  }, {
+    "name" : "Result",
+    "value" : "{'code': 104, 'msg': '登录凭证已失效，请重新登录'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "run(order=2)", "@pytest.mark.usefixtures('Clean_Tmp')" ]
+  },
+  "source" : "ded25238920733f2.json",
+  "parameterValues" : [ "{'token': '5465465a4d65a4d65sa4adsada'}", "{'code': 104, 'msg': '登录凭证已失效，请重新登录'}" ]
+}
