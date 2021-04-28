@@ -1,0 +1,126 @@
+{
+  "uid" : "e546dbb8114b43e5",
+  "name" : "testRefresh[InputData0-Result0-正确token刷新]",
+  "fullName" : "Testcases.test_02_Refresh.TestUserClass#testRefresh",
+  "historyId" : "c441f1d4c78a200c6c9dcaba6550151d",
+  "time" : {
+    "start" : 1619594914159,
+    "stop" : 1619594914234,
+    "duration" : 75
+  },
+  "description" : "\n        测试登录接口\n        :param InputData:\n        :param Result:\n        :return:\n        ",
+  "descriptionHtml" : "<pre><code>    测试登录接口\n    :param InputData:\n    :param Result:\n    :return:\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "Clean_Tmp",
+    "time" : {
+      "start" : 1619594913809,
+      "stop" : 1619594913825,
+      "duration" : 16
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "\n        测试登录接口\n        :param InputData:\n        :param Result:\n        :return:\n        ",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "f4228a842ff48055",
+      "name" : "log",
+      "source" : "f4228a842ff48055.txt",
+      "type" : "text/plain",
+      "size" : 291
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "Clean_Tmp::0",
+    "time" : {
+      "start" : 1619594914328,
+      "stop" : 1619594914329,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "用户相关接口"
+  }, {
+    "name" : "story",
+    "value" : "刷新token接口"
+  }, {
+    "name" : "tag",
+    "value" : "run(order=2)"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('Clean_Tmp')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Testcases"
+  }, {
+    "name" : "suite",
+    "value" : "test_02_Refresh"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestUserClass"
+  }, {
+    "name" : "host",
+    "value" : "PC-20200325KZTD"
+  }, {
+    "name" : "thread",
+    "value" : "5328-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Testcases.test_02_Refresh"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "InputData",
+    "value" : "{'token': 'eyJhbGciOiJIUzI1NiJ9.eyJ0aGlyZFBhcnR5Ijp0cnVlLCJzdWIiOiI4NDd3IiwiZXhwIjoxNjE5NjU3Njg3LCJ1c2VySWQiOiIxMzQxNjY3MTE1MjQ5NDM4NzIxIiwiaWF0IjoxNjE5NTcxMjg3LCJqdGkiOiI5NGEwYTNmNC1lMGEwLTRhMmEtOGJhNC0zYmFkOGYwNTc0MWMiLCJ1c2VybmFtZSI6Ijg0N3cifQ.f6VqrnHhMDV5lkB17Hh-w4K8q95nt4zz08BSjSj6K1Y'}"
+  }, {
+    "name" : "Result",
+    "value" : "{'code': 0, 'msg': '成功'}"
+  }, {
+    "name" : "Testtitle",
+    "value" : "'正确token刷新'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "run(order=2)", "@pytest.mark.usefixtures('Clean_Tmp')" ]
+  },
+  "source" : "e546dbb8114b43e5.json",
+  "parameterValues" : [ "{'token': 'eyJhbGciOiJIUzI1NiJ9.eyJ0aGlyZFBhcnR5Ijp0cnVlLCJzdWIiOiI4NDd3IiwiZXhwIjoxNjE5NjU3Njg3LCJ1c2VySWQiOiIxMzQxNjY3MTE1MjQ5NDM4NzIxIiwiaWF0IjoxNjE5NTcxMjg3LCJqdGkiOiI5NGEwYTNmNC1lMGEwLTRhMmEtOGJhNC0zYmFkOGYwNTc0MWMiLCJ1c2VybmFtZSI6Ijg0N3cifQ.f6VqrnHhMDV5lkB17Hh-w4K8q95nt4zz08BSjSj6K1Y'}", "{'code': 0, 'msg': '成功'}", "'正确token刷新'" ]
+}

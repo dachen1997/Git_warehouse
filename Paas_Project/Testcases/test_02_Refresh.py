@@ -31,7 +31,7 @@ class   TestUserClass(object):
         :param Result:
         :return:
         '''
-
+        logger.info(Testtitle)
         repose = User.RefreshFunction(url=Refreshurl,requestData=InputData)
         assert Result['code'] == repose['code'] and Result['msg'] == repose['msg']
 

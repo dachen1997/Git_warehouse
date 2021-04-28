@@ -45,7 +45,7 @@ class   TestUserClass(object):
         :param Result:
         :return:
         '''
-
+        logger.info(Testtitle)
         repose = User.LoginFunction(url=loginurl,requestData=InputData)
         assert Result['code'] == repose['code'] and Result['msg'] == repose['msg']
 

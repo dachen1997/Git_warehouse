@@ -1,0 +1,156 @@
+{
+  "uid" : "abc6a9d8cb1cb84e",
+  "name" : "testLogin[InputData2-Result2-正确的账号，密码不输入登录]",
+  "fullName" : "Testcases.test_01_Login.TestUserClass#testLogin",
+  "historyId" : "8052262cb66b85ade482f81dd7f6b8a4",
+  "time" : {
+    "start" : 1619594913949,
+    "stop" : 1619594913984,
+    "duration" : 35
+  },
+  "description" : "\n        测试登录接口\n        :param InputData:\n        :param Result:\n        :return:\n        ",
+  "descriptionHtml" : "<pre><code>    测试登录接口\n    :param InputData:\n    :param Result:\n    :return:\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestUserClass",
+    "time" : {
+      "start" : 1619594913825,
+      "stop" : 1619594913825,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "Clean_Tmp",
+    "time" : {
+      "start" : 1619594913809,
+      "stop" : 1619594913825,
+      "duration" : 16
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "\n        测试登录接口\n        :param InputData:\n        :param Result:\n        :return:\n        ",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "a55adb9bccf0f3e3",
+      "name" : "log",
+      "source" : "a55adb9bccf0f3e3.txt",
+      "type" : "text/plain",
+      "size" : 196
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestUserClass::0",
+    "time" : {
+      "start" : 1619594914152,
+      "stop" : 1619594914153,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "Clean_Tmp::0",
+    "time" : {
+      "start" : 1619594914328,
+      "stop" : 1619594914329,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "用户相关接口"
+  }, {
+    "name" : "story",
+    "value" : "登录接口"
+  }, {
+    "name" : "tag",
+    "value" : "run(order=1)"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('Clean_Tmp')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Testcases"
+  }, {
+    "name" : "suite",
+    "value" : "test_01_Login"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestUserClass"
+  }, {
+    "name" : "host",
+    "value" : "PC-20200325KZTD"
+  }, {
+    "name" : "thread",
+    "value" : "5328-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Testcases.test_01_Login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "InputData",
+    "value" : "{'username': '847w', 'password': ''}"
+  }, {
+    "name" : "Result",
+    "value" : "{'code': 1, 'msg': '失败', 'is_SendSQL': False}"
+  }, {
+    "name" : "Testtitle",
+    "value" : "'正确的账号，密码不输入登录'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "run(order=1)", "@pytest.mark.usefixtures('Clean_Tmp')" ]
+  },
+  "source" : "abc6a9d8cb1cb84e.json",
+  "parameterValues" : [ "{'username': '847w', 'password': ''}", "{'code': 1, 'msg': '失败', 'is_SendSQL': False}", "'正确的账号，密码不输入登录'" ]
+}

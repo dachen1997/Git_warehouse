@@ -1,53 +1,53 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Wed Apr 28 09:00:52 CST 2021","Wed Apr 28 09:00:52 CST 2021","37","Testcases","test_02_Refresh","TestUserClass","","","testRefresh[InputData1-Result1-错误token刷新]","
+"passed","Wed Apr 28 15:28:34 CST 2021","Wed Apr 28 15:28:34 CST 2021","39","Testcases","test_02_Refresh","TestUserClass","","","testRefresh[InputData2-Result2-没有token刷新]","
         测试登录接口
         :param InputData:
         :param Result:
         :return:
         "
-"passed","Wed Apr 28 09:00:52 CST 2021","Wed Apr 28 09:00:52 CST 2021","36","Testcases","test_01_Login","TestUserClass","","","testLogin[InputData1-Result1-正确的账号，错误的密码登录]","
+"passed","Wed Apr 28 15:28:34 CST 2021","Wed Apr 28 15:28:34 CST 2021","38","Testcases","test_02_Refresh","TestUserClass","","","testRefresh[InputData1-Result1-错误token刷新]","
         测试登录接口
         :param InputData:
         :param Result:
         :return:
         "
-"passed","Wed Apr 28 09:00:52 CST 2021","Wed Apr 28 09:00:52 CST 2021","33","Testcases","test_01_Login","TestUserClass","","","testLogin[InputData4-Result4-账号不输入，正确的密码登录]","
+"passed","Wed Apr 28 15:28:34 CST 2021","Wed Apr 28 15:28:34 CST 2021","35","Testcases","test_01_Login","TestUserClass","","","testLogin[InputData5-Result5-账号不输入，密码不输入登录]","
         测试登录接口
         :param InputData:
         :param Result:
         :return:
         "
-"passed","Wed Apr 28 09:00:52 CST 2021","Wed Apr 28 09:00:52 CST 2021","74","Testcases","test_01_Login","TestUserClass","","","testLogin[InputData0-Result0-正确的账号密码登录]","
+"passed","Wed Apr 28 15:28:33 CST 2021","Wed Apr 28 15:28:33 CST 2021","71","Testcases","test_01_Login","TestUserClass","","","testLogin[InputData0-Result0-正确的账号密码登录]","
         测试登录接口
         :param InputData:
         :param Result:
         :return:
         "
-"passed","Wed Apr 28 09:00:52 CST 2021","Wed Apr 28 09:00:52 CST 2021","33","Testcases","test_01_Login","TestUserClass","","","testLogin[InputData5-Result5-账号不输入，密码不输入登录]","
+"passed","Wed Apr 28 15:28:33 CST 2021","Wed Apr 28 15:28:34 CST 2021","38","Testcases","test_01_Login","TestUserClass","","","testLogin[InputData3-Result3-错误的账号，正确的密码登录]","
         测试登录接口
         :param InputData:
         :param Result:
         :return:
         "
-"passed","Wed Apr 28 09:00:52 CST 2021","Wed Apr 28 09:00:52 CST 2021","36","Testcases","test_01_Login","TestUserClass","","","testLogin[InputData3-Result3-错误的账号，正确的密码登录]","
+"passed","Wed Apr 28 15:28:34 CST 2021","Wed Apr 28 15:28:34 CST 2021","75","Testcases","test_02_Refresh","TestUserClass","","","testRefresh[InputData0-Result0-正确token刷新]","
         测试登录接口
         :param InputData:
         :param Result:
         :return:
         "
-"passed","Wed Apr 28 09:00:52 CST 2021","Wed Apr 28 09:00:52 CST 2021","75","Testcases","test_02_Refresh","TestUserClass","","","testRefresh[InputData0-Result0-正确token刷新]","
+"passed","Wed Apr 28 15:28:33 CST 2021","Wed Apr 28 15:28:33 CST 2021","35","Testcases","test_01_Login","TestUserClass","","","testLogin[InputData2-Result2-正确的账号，密码不输入登录]","
         测试登录接口
         :param InputData:
         :param Result:
         :return:
         "
-"passed","Wed Apr 28 09:00:52 CST 2021","Wed Apr 28 09:00:52 CST 2021","37","Testcases","test_02_Refresh","TestUserClass","","","testRefresh[InputData2-Result2-没有token刷新]","
+"passed","Wed Apr 28 15:28:33 CST 2021","Wed Apr 28 15:28:33 CST 2021","36","Testcases","test_01_Login","TestUserClass","","","testLogin[InputData1-Result1-正确的账号，错误的密码登录]","
         测试登录接口
         :param InputData:
         :param Result:
         :return:
         "
-"passed","Wed Apr 28 09:00:52 CST 2021","Wed Apr 28 09:00:52 CST 2021","34","Testcases","test_01_Login","TestUserClass","","","testLogin[InputData2-Result2-正确的账号，密码不输入登录]","
+"passed","Wed Apr 28 15:28:34 CST 2021","Wed Apr 28 15:28:34 CST 2021","71","Testcases","test_01_Login","TestUserClass","","","testLogin[InputData4-Result4-账号不输入，正确的密码登录]","
         测试登录接口
         :param InputData:
         :param Result:

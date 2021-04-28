@@ -1,0 +1,4 @@
+INFO     Testing_login:test_01_Login.py:29 连接数据库
+INFO     Testing_login:test_01_Login.py:48 正确的账号密码登录
+INFO     requests.packages.urllib3.connectionpool:connectionpool.py:203 Starting new HTTP connection (1): 47.115.122.235
+DEBUG    requests.packages.urllib3.connectionpool:connectionpool.py:383 "POST /thirdPartyLogin HTTP/1.1" 200 None

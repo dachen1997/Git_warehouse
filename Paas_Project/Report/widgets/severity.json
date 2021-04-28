@@ -1,90 +1,90 @@
 [ {
-  "uid" : "e45ab364caa75c2",
-  "name" : "testLogin[InputData3-Result3-错误的账号，正确的密码登录]",
+  "uid" : "f7440e51e7cbf871",
+  "name" : "testRefresh[InputData1-Result1-错误token刷新]",
   "time" : {
-    "start" : 1619571652422,
-    "stop" : 1619571652458,
+    "start" : 1619594914241,
+    "stop" : 1619594914279,
+    "duration" : 38
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b082c5831fa06ce2",
+  "name" : "testLogin[InputData0-Result0-正确的账号密码登录]",
+  "time" : {
+    "start" : 1619594913826,
+    "stop" : 1619594913897,
+    "duration" : 71
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "efd2c1551871d993",
+  "name" : "testLogin[InputData4-Result4-账号不输入，正确的密码登录]",
+  "time" : {
+    "start" : 1619594914035,
+    "stop" : 1619594914106,
+    "duration" : 71
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7143b7276de7805b",
+  "name" : "testLogin[InputData1-Result1-正确的账号，错误的密码登录]",
+  "time" : {
+    "start" : 1619594913905,
+    "stop" : 1619594913941,
     "duration" : 36
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "e9fe51b375ef9f0",
-  "name" : "testLogin[InputData2-Result2-正确的账号，密码不输入登录]",
-  "time" : {
-    "start" : 1619571652381,
-    "stop" : 1619571652415,
-    "duration" : 34
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "34f58d360c702f71",
+  "uid" : "e546dbb8114b43e5",
   "name" : "testRefresh[InputData0-Result0-正确token刷新]",
   "time" : {
-    "start" : 1619571652552,
-    "stop" : 1619571652627,
+    "start" : 1619594914159,
+    "stop" : 1619594914234,
     "duration" : 75
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "b851f02adfca925d",
-  "name" : "testLogin[InputData1-Result1-正确的账号，错误的密码登录]",
+  "uid" : "abc6a9d8cb1cb84e",
+  "name" : "testLogin[InputData2-Result2-正确的账号，密码不输入登录]",
   "time" : {
-    "start" : 1619571652337,
-    "stop" : 1619571652373,
-    "duration" : 36
+    "start" : 1619594913949,
+    "stop" : 1619594913984,
+    "duration" : 35
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "5fc5b1149960468b",
-  "name" : "testRefresh[InputData1-Result1-错误token刷新]",
-  "time" : {
-    "start" : 1619571652635,
-    "stop" : 1619571652672,
-    "duration" : 37
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "46ea225f6e50397c",
-  "name" : "testLogin[InputData5-Result5-账号不输入，密码不输入登录]",
-  "time" : {
-    "start" : 1619571652507,
-    "stop" : 1619571652540,
-    "duration" : 33
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "d7834da6af2bd2d2",
-  "name" : "testLogin[InputData0-Result0-正确的账号密码登录]",
-  "time" : {
-    "start" : 1619571652255,
-    "stop" : 1619571652329,
-    "duration" : 74
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "6aa63a55da365191",
+  "uid" : "80eb4346dbb6b3a5",
   "name" : "testRefresh[InputData2-Result2-没有token刷新]",
   "time" : {
-    "start" : 1619571652681,
-    "stop" : 1619571652718,
-    "duration" : 37
+    "start" : 1619594914286,
+    "stop" : 1619594914325,
+    "duration" : 39
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "960ea8ec8a6e97ae",
-  "name" : "testLogin[InputData4-Result4-账号不输入，正确的密码登录]",
+  "uid" : "ac20f5d93abb6db3",
+  "name" : "testLogin[InputData5-Result5-账号不输入，密码不输入登录]",
   "time" : {
-    "start" : 1619571652465,
-    "stop" : 1619571652498,
-    "duration" : 33
+    "start" : 1619594914113,
+    "stop" : 1619594914148,
+    "duration" : 35
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "418fe5e0fafa6c03",
+  "name" : "testLogin[InputData3-Result3-错误的账号，正确的密码登录]",
+  "time" : {
+    "start" : 1619594913990,
+    "stop" : 1619594914028,
+    "duration" : 38
   },
   "status" : "passed",
   "severity" : "normal"
