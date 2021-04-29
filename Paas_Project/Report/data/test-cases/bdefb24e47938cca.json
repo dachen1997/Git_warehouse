@@ -1,0 +1,126 @@
+{
+  "uid" : "bdefb24e47938cca",
+  "name" : "testRefresh[InputData1-Result1-错误token刷新]",
+  "fullName" : "Testcases.test_02_Refresh.TestUserClass#testRefresh",
+  "historyId" : "cccbb9675f696718f5445bad1403a0d7",
+  "time" : {
+    "start" : 1619666612998,
+    "stop" : 1619666613033,
+    "duration" : 35
+  },
+  "description" : "\n        测试刷新接口\n        :param InputData:\n        :param Result:\n        :return:\n        ",
+  "descriptionHtml" : "<pre><code>    测试刷新接口\n    :param InputData:\n    :param Result:\n    :return:\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "Clean_Tmp",
+    "time" : {
+      "start" : 1619666612601,
+      "stop" : 1619666612620,
+      "duration" : 19
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "\n        测试刷新接口\n        :param InputData:\n        :param Result:\n        :return:\n        ",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "f0ac4b6ffbd5864a",
+      "name" : "log",
+      "source" : "f0ac4b6ffbd5864a.txt",
+      "type" : "text/plain",
+      "size" : 170
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "Clean_Tmp::0",
+    "time" : {
+      "start" : 1619666613081,
+      "stop" : 1619666613082,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "用户相关接口"
+  }, {
+    "name" : "story",
+    "value" : "刷新token接口"
+  }, {
+    "name" : "tag",
+    "value" : "run(order=2)"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('Clean_Tmp')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Testcases"
+  }, {
+    "name" : "suite",
+    "value" : "test_02_Refresh"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestUserClass"
+  }, {
+    "name" : "host",
+    "value" : "PC-20200325KZTD"
+  }, {
+    "name" : "thread",
+    "value" : "3156-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Testcases.test_02_Refresh"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "InputData",
+    "value" : "{'token': '5465465a4d65a4d65sa4adsada'}"
+  }, {
+    "name" : "Result",
+    "value" : "{'code': 104, 'msg': '登录凭证已失效，请重新登录'}"
+  }, {
+    "name" : "Testtitle",
+    "value" : "'错误token刷新'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "run(order=2)", "@pytest.mark.usefixtures('Clean_Tmp')" ]
+  },
+  "source" : "bdefb24e47938cca.json",
+  "parameterValues" : [ "{'token': '5465465a4d65a4d65sa4adsada'}", "{'code': 104, 'msg': '登录凭证已失效，请重新登录'}", "'错误token刷新'" ]
+}

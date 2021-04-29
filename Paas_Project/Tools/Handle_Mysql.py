@@ -12,6 +12,7 @@ sqluser = config.read_config(MYSQLCONFIG_PATH,'sql_connect_info','user')
 sqlpasswd = config.read_config(MYSQLCONFIG_PATH,'sql_connect_info','passwd')
 sqldatabases = config.read_config(MYSQLCONFIG_PATH,'sql_connect_info','databases')
 
+#导入日志封装
 from Tools.Handle_LogConfig import load_my_logging_cfg
 logger = load_my_logging_cfg("Mysql")
 

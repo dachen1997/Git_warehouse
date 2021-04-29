@@ -2,13 +2,13 @@ import requests
 
 from Tools.Handle_Path import REQUESTCONFIG_PATH,REPOSECONFIG_PATH #导入请求和响应配置文件
 
-#处理配置文件信息
+#处理配置文件信息，获取登录和刷新接口的URL
 from Tools.Handle_Config import HandleConfigclass
 config = HandleConfigclass()
 login_url = config.read_config(REQUESTCONFIG_PATH,'Request_resource','login_url')
 refresh_url = config.read_config(REQUESTCONFIG_PATH,'Request_resource','refresh_token_url')
 
-#这个是做调试用的
+#这个是做调试用的token数据
 refresh_token = config.read_config(REPOSECONFIG_PATH,'succeedLogin','token')
 
 #调用日志封装
@@ -28,7 +28,7 @@ class   UserClass(object):
             repose = self.session.post(url=url,json=requestData)
 
             #成功登录时，写入token到配置文件
-            if repose.json()['code'] == 0 and repose.json()['msg'] == "登录成功！":
+            if repose.json()['code'] == 0 and repose.json()['msg'] == "登录成功！" and repose.json():
                 data = {'succeedLogin': {"TOKEN": repose.json()['data']}}
                 config.write_config(datas=data, filename=f'{REPOSECONFIG_PATH}')
 
@@ -52,7 +52,7 @@ class   UserClass(object):
         repose = self.session.post(url=URL,json=requestData)
 
         #接口成功刷新时，写入新的token到配置文件
-        if repose.json()['code'] == 0 and repose.json()['msg'] == "成功":
+        if repose.json()['code'] == 0 and repose.json()['msg'] == "成功" and repose.json():
             data = {'NewsucceedLogin': {"NEWTOKEN": repose.json()['data']}}
             config.write_config(datas=data, filename=f'{REPOSECONFIG_PATH}')
 

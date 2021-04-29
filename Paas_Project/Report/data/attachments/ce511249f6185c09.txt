@@ -1,0 +1,2 @@
+INFO     Testing_login:test_01_Login.py:50 账号不输入，正确的密码登录
+DEBUG    requests.packages.urllib3.connectionpool:connectionpool.py:383 "POST /thirdPartyLogin HTTP/1.1" 200 None
